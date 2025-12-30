@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    
+}
+body{
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+} 
+/* 로고 부분 -------------------------------------------------------------*/
+#logoLogo{
+    display: flex;
+    font-family:Montserrat Alternates;
+    font-weight: 600;
+    font-style: "Regular";
+    font-size: 30px;
+    line-height: 100%;
+    color: #35821E;
+    margin-left: 20px;
+    margin-top: 30px;
+    height:40px;
+    width: 250px;
+}
+
+.logo{
+    background-color: white;
+    width:1700px;
+    height:70px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 34px;
+}
+
+#BodyCheck{
+    margin-left: 280px;
+    color: #1C7700;
+    font-family:Montserrat Alternates;
+    font-weight: 700;
+}
+
+#CommunityID{
+    color: #4A4A4A;
+    font-family:Montserrat Alternates;
+}
+#FitLooID{
+    color: #4A4A4A;
+    font-family:Montserrat Alternates;
+}
+
+#login{
+    margin-left: 430px;
+    color: #000000;
+    font-weight: 400;
+}
+
+#signup{
+    color: #000000;
+    font-weight: 400;
+}
+
+.logo ul li a{
+    text-decoration: none;
+    font-family: Pretendard;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ul li{
+    
+    margin-top: 30px;
+}
+
+/* 로고 부분 --------------------------------------------------------------*/
+
+/* Center 부분------------------------------------------------------------ */
+.Center{
+    align-items: center;
+    
+}
+
+#BigInbody{
+    color: #1C7700;
+    font-family:Montserrat Alternates;
+    font-weight: 530;
+    font-size: 38px;
+    line-height: 100%;
+    top: 318px;
+    left: 842px;
+    
+    display: flex;
+    justify-content: center; 
+}
+
+#explanationInbody{
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 100%;
+
+    padding-top: 200px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+}
+
+/* Center 부분------------------------------------------------------------ */
+
+/* Center 부분의 사용자가 입력하는 부분------------------------------------------------------------ */
+.CenterInput{
+    align-items: center;
+    display: inline-block;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.CenterInput input{
+    width: 400px;
+    height: 40px;
+    background-color: #F1F1F1;
+    border-color: #A5A5A5;
+    border-radius: 7px;
+    padding-left: 30px;
+}
+.NamePart{
+    margin-left: 430px;
+    display: inline-block;
+}
+#NameText{
+    margin-top: 12px;
+}
+
+.AgePart{
+    margin-left: 20px;
+    display: inline-block;
+}
+#AgeText{
+    margin-top: 12px;
+}
+
+.GenderPart{
+    margin-left: 430px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#GenderText{
+    margin-top: 12px;
+}
+
+.EmailPart{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#EmailText{
+    margin-top: 12px;
+}
+
+.highPart{
+    margin-left: 430px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#highText{
+    margin-top: 12px;
+}
+
+.kgPart{
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#kgText{
+    margin-top: 12px;
+}
+
+/* Center 부분의 사용자가 입력하는 부분------------------------------------------------------------ */
+
+/* 이용약관 동의 부분----------------------------------------------------------- */
+#AgreeBox{
+    margin-left: 430px;
+    margin-top: 40px;
+}
+/* 이용약관 동의 부분----------------------------------------------------------- */
+
+/* 측정하기 부분----------------------------------------------------------- */
+.measureSub{
+    background-color: #FFFFFFDB;
+    border-color: #5E875196;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: 70px;
+    width: 580px;
+    height: 65px;
+    margin-left:530px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}
+/* 측정하기 부분----------------------------------------------------------- */
+/* 인바디 수치 부분----------------------------------------------------------- */
+.MyInbodyBox{
+    background-color: white;
+    width: 1180px;
+    height: 637px;
+    padding-top: 25px;
+    margin-bottom: 300px;
+    border-radius: 15px;
+    margin-left: 250px
+}
+
+#InbodyLogo{
+    font-family:Montserrat Alternates;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 36px;
+    line-height: 100%;
+    margin-left: 24px;
+    color: #99BC90;
+}
+
+#explanation{
+    margin-left: 20px;
+    color:#CECECE;
+    font-family: "Pretendard";
+    font-weight: 600px;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 100%;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+#cameraP {
+    margin-left: 700px;
+}
+
+#upload{
+    margin-left: 5px;
+}
+#save{
+    background-color: #000000;
+    color:white;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#grapInbody{
+    margin-left: 120px;
+    margin-bottom: 70px;
+}
+
+#date{
+    margin-left: 90px;
+    color:#595F6D;
+    font-family: "Pretendard";
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+#dateText{
+    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 5px;
+    height: 40px;
+    width: 305px;
+    border-color: #E4EAF2;
+}
+
+#weight{
+    margin-left: 310px;
+    color: #595F6D;
+    font-family: "Pretendard";
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+#weightText{
+    margin-bottom: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+    height: 40px;
+    width: 305px;
+    border-color: #E4EAF2;
+}
+
+#jibang{
+    margin-left: 320px;
+    color:#595F6D;
+    font-family: "Pretendard";
+    font-weight: 500px;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+}
+#jibangText{
+    margin-bottom: 70px;
+    margin-left: 30px;
+    border-radius: 5px;
+    height: 40px;
+    width: 305px;
+    border-color: #E4EAF2;
+}
+/* 인바디 수치 부분----------------------------------------------------------- */
+/* bottomBox 부분----------------------------------------------------------- */
+.bottomBox{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 245px;
+    padding-right: 245px;
+    padding-bottom: 50px;
+}
+h2{
+    color: #35821E;
+    font-family:Montserrat Alternates;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+p{
+    margin: 0px;
+    font-family: "Pretendard Variable";
+    font-weight: 500px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.sixF{
+    display: flex;
+}
+.fiveF{
+    display: flex;
+}
+.fourF{
+    display: flex;
+}
+.threeF{
+    display: flex;
+    margin-left: 988px;
+}
+.twoF{
+    display: flex;
+}
+.oneF{
+    display: flex;
+}
+
+#Building{
+    margin-left: 670px;
+}
+#BuildingValue{
+    margin-left: 80px;
+}
+#fax{
+    margin-left: 65px;
+}
+#health{
+    margin-left: 465px;
+}
+#healthValue{
+    margin-left: 65px;
+}
+#agree{
+    margin-left:75px;
+}
+#insta{
+    margin-left: 340px;
+}
+/* bottomBox 부분----------------------------------------------------------- */

@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0; /* 모든 태그에 기본으로 들어있는 여백 값을 없애줌 */
+    padding: 0; /* 모든 태그에 기본으로 들어있는 여백 값을 없애줌 */
+    box-sizing: border-box; /*  너비와 헤이츠에 패딩과 마진 값을 포함시키는 코드 이로 인해 레이아웃 안 깨지게 도와줌 */
+
+}
+
+body {
+    font-family: "Pretendard";
+    font-family: "Montserrat Alternates";
+    margin: 0;  /* 브라우저에 기본으로 설정되어 있는 여백 값 없애주는 코드 */
+    padding: 0;  /* 브라우저에 기본으로 설정되어 있는 여백 값 없애주는 코드 */
+}
+
+
+
+.header {
+    display: flex;  /* 요소들을 한 줄로 배치할 수 있게 만들어 주는 코드 */
+    justify-content: space-between; /* 첫 요소는 왼쪽 끝 중간은 가운데 마지막 요소는 오른쪽 끝, 사이를 벌리는 가로 정렬 방식 */
+    align-items: center; /* 세로 방향으로 중앙 정렬 해주는 코드 */
+    padding: 18px 30px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    font-family: "Montserrat Alternates";
+    font-weight: 700; /* 폰트 두께 */
+    color: #35821E;
+    margin-left: 0px;
+}
+
+.menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu .active {
+    text-decoration: none; /* 링크 줄 없애주는 코드, 꾸밈 없음 */
+
+
+}
+
+.auth a {
+    margin-left: 15px;
+    text-decoration: none; /* 링크 줄 없애주는 코드, 꾸밈 없음 */
+    font-size: 13px;
+    color: #333;
+}
+
+
+.hero {
+    height: 280px;
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.60) 100%), linear-gradient(270deg, #5E8751 0%, #9DC347 21.19%, #5E8751 50.03%, #ACD145 79.81%, #35821E 100%);
+           */
+    display: flex; /* 요소들을 한 줄로 배치할 수 있게 만들어 주는 코드 */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero img {
+    width: 1550px;
+    height: 280px;
+    text-decoration: none;  /* 링크 줄 없애주는 코드, 꾸밈 없음 */
+
+
+
+}
+
+.hero h5 {}
+
+.subtitle {
+    font-size: 25px;
+    color: #ffffff;
+
+
+
+}
+
+.title {
+    font-family: "Montserrat Alternates";
+    font-size: 56px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 3px; /* 글자 사이 간격 조절해주는 코드 */
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "Montserrat Alternates";
+    padding-left: 30px;
+}
+
+.top-section {
+    display: flex;
+    gap: 40px; /* 요소 사이 간격 조절해주는 코드 */
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.latest {
+    flex: 2;
+
+
+}
+
+.v-item {
+
+    display: flex; /* 요소들을 한 줄로 배치할 수 있게 만들어 주는 코드 */
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.v {
+    list-style: none; /* 리스트 앞에 붙는 점들이나 표시, 기호를 없애주는 코드 */
+    margin-top: 20px;
+}
+
+.v-item img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover; /* 이미지 비율 꺠지는 거 방지해주는 코드 */
+    text-decoration: none; /* 링크 줄 없애주는 코드, 꾸밈 없음 */
+
+
+}
+
+.v-item h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.v-item p {
+    font-size: 13px;
+    color: #777;
+
+
+}
+
+
+.recommend {
+    flex: 1;
+}
+
+.recommend img {
+
+    object-fit: cover; /* 이미지 비율 깨지는 거 방지해주는 코드 */
+    border-radius: 17px;
+}
+
+
+.p-card {
+
+    margin-bottom: 20px;
+    display: grid;
+    align-items: flex-start;
+}
+
+.p-c {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.p-c img {
+    width: 100%;
+
+}
+
+.tag {
+    position: absolute;
+    /* bottom: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px; */
+
+    color: white;
+    
+    padding-top:230px;
+    padding-left: 10px;
+    margin-left: 0px;
+
+    font-size: 13px;
+    
+    position: absolute;
+}
+
+.popular {
+    margin-top: 60px;
+}
+
+.p-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.p-c h3 {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.p-c p {
+    font-size: 13px;
+    color: #777;
+}
+
+
+
+.a-title {
+    color: #1c7700;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #1c7700;
+}
+
+.section-title {
+    margin-bottom: 20px;
+
+}
+
+
+
+.section-title {
+
+    font-weight: 500;
+
+}
+
+.tab {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ddd; /* 테드리 선을 의미함 */
+    margin-bottom: 10px;
+}
+
+.tab span {
+    padding-bottom: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tab-i {
+    color: #bbb;
+    gap: 20px;
+    font-size: 25px;
+    text-decoration: none;
+
+
+}
+.tab-i a {
+    color: #bbb;
+        
+            gap: 30px;
+            padding-bottom: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+}
+
+.c {
+    border-bottom: 1px solid #e5e5e5;
+    color: #000000;
+    padding: 10px;
+}
+.c a {
+    text-decoration: none; /* 링크 밑에 줄 없애줌 */
+}
+
+.v-item>div {
+    position: relative; /* 읽음, 몇분 전 글 부모를 기준으로 크기에 맞게 배치 */
+    /* width: 100%; */
+}
+
+.pr {
+    color: #777;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+
+}
+
+.pvp {
+    text-align: center;
+    /* background:  linear-gradient(270deg, #2B9512 0%,  #c4c4c4 100%);
+             background:  linear-gradient(270deg, #2B9512 0%,  #1C7700 #32A51B 100%); */
+    /* background: linear-gradient(270deg, #1c7700 0%, #2B9512 0%, #32A51B 0%); */
+    
+background: linear-gradient(0deg, rgba(35, 107, 39, 0.6) 0%, rgba(27, 143, 33, 0.6) 100%), linear-gradient(270deg, #1C7700 0%, #ACD145 21.19%, #32A51B 50.03%, #ACD145 79.81%, #1C7700 100%);
+            
+    border-radius: 17px;
+    margin-left: 20px;
+    margin-right: 110px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    margin-bottom: 30px;
+
+
+}
+
+button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.button {
+    text-align: left;
+    color: #ffffff;
+}
+
+.vip {
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+
+}
+
+
+h1 {
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    color: #1C7700;
+    font-size: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+#k {
+    color: #000000;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#shoesAction {
+    width: 517px;
+    height: 284px;
+    background-image: url('shoes.png');
+    background-size: cover;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#shoesAction:hover {
+    background-image: url('shoesClear.png');
+}
+
+
+#clothesAction {
+    width: 643px;
+    height: 284px;
+    background-image: url('clothes.png');
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#clothesAction:hover {
+    background-image: url('clothesClear.png');
+}
+
+
+#deviceAction {
+    width: 643px;
+    height: 284px;
+    background-image: url('device.png');
+    background-size: cover;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+#deviceAction:hover {
+    background-image: url('deviceClear.png');
+}
+
+
+#foodAction {
+    width: 516px;
+    height: 284px;
+    background-image: url('food.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+#foodAction:hover {
+    background-image: url('foodClear.png');
+}
+
+/* bottomBox 부분----------------------------------------------------------- */
+.bottomBox {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 245px;
+    padding-right: 245px;
+    padding-bottom: 50px;
+}
+
+.m {
+    color: #35821E;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+p {
+    margin: 0px;
+    font-family: "Pretendard Variable";
+    font-weight: 500px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.sixF {
+    display: flex;
+}
+
+.fiveF {
+    display: flex;
+}
+
+.fourF {
+    display: flex;
+}
+
+.threeF {
+    display: flex;
+    margin-left: 988px;
+}
+
+.twoF {
+    display: flex;
+}
+
+.oneF {
+    display: flex;
+}
+
+#Building {
+    margin-left: 670px;
+}
+
+#BuildingValue {
+    margin-left: 80px;
+}
+
+#fax {
+    margin-left: 65px;
+}
+
+#health {
+    margin-left: 465px;
+}
+
+#healthValue {
+    margin-left: 65px;
+}
+
+#agree {
+    margin-left: 75px;
+}
+
+#insta {
+    margin-left: 340px;
+}
+
+/* bottomBox 부분----------------------------------------------------------- */

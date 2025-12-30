@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Pretendard";
+            font-family: "Montserrat Alternates";
+            margin: 0;
+            padding: 0;
+        }
+
+
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 30px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-family:  "Montserrat Alternates";
+            font-weight: 700;
+            color: #4CAF50;
+            margin-left: 0px;
+        }
+        .logo a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+
+        .menu a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .menu .active {
+            color:#333
+        }
+
+        .auth a {
+            margin-left: 15px;
+            text-decoration: none;
+            font-size: 13px;
+            color: #333;
+        }
+
+
+        .hero {
+            height: 280px;
+            background: linear-gradient(0deg, rgba(220, 219, 219, 0.6) 0%, rgba(220, 219, 219, 0.6) 100%), linear-gradient(270deg, #5E8751 0%, #9DC347 21.19%, #5E8751 50.03%, #ACD145 79.81%, #35821E 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        .title {
+            font-family: "Montserrat Alternates";
+            font-size: 56px;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 3px;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            font-family: 'Noto Sans KR', sans-serif;
+            padding-left: 30px;
+        }
+
+        .top-section {
+            display: flex;
+            gap: 40px;
+            margin-top: 40px;
+            margin-left: 50px;
+        }
+
+        .latest {
+            flex: 2;
+
+
+        }
+
+        .v-item {
+
+            display: flex;
+            gap: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #e5e5e5;
+
+        }
+
+        .v {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .v-item img {
+            width: 300px;
+            height: 150px;
+            object-fit: cover;
+
+        }
+
+        .v-item h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .v-item p {
+            font-size: 13px;
+            color: #777;
+
+
+        }
+
+        .recommend {
+            flex: 1;
+        }
+
+        .recommend img {
+
+            object-fit: cover;
+            border-radius: 17px;
+        }
+
+
+        .p-card {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .p-c {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        .p-c img {
+            width: 100%;
+
+        }
+
+        .tag {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+
+        .popular {
+            margin-top: 60px;
+        }
+
+        .p-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .p-c h3 {
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        .p-c p {
+            font-size: 13px;
+            color: #777;
+        }
+
+        .more-btn {
+            display: block;
+            margin: 40px auto;
+            padding: 10px 40px;
+            border: 1px solid #ccc;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .a-title {
+            color: #1c7700;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #1c7700;
+        }
+
+        .section-title {
+            margin-bottom: 20px;
+
+        }
+
+
+
+        .section-title {
+
+            font-weight: 500;
+
+        }
+
+        .tab {
+            display: flex;
+            gap: 20px;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+
+
+        .tab-i {
+            color: #bbb;
+            font-size: 25px;
+            gap: 30px;
+            
+
+        }
+        .tab-i a {
+            color: #bbb;
+            font-size: 25px;
+            gap: 30px;
+            padding-bottom: 10px;
+            font-size: 16px;
+            cursor: pointer;
+
+        }
+        
+        .c {
+            border-bottom: 1px solid #e5e5e5;
+            color: #000000;
+            padding: 10px;
+            
+        }
+        .c a {
+            text-decoration: none;
+        }
+
+        .v-item > div {
+            position: relative;
+            /* width: 100%; */
+        }
+
+        .pr {
+            color: #777;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            font-size: 12px;
+            
+        }
+        /* bottomBox 부분----------------------------------------------------------- */
+ .bottomBox{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 245px;
+    padding-right: 245px;
+    padding-bottom: 50px;
+}
+.m{
+    color: #35821E;
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+ p{
+    margin: 0px;
+    font-family: "Pretendard Variable";
+    font-weight: 500px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.sixF{
+    display: flex;
+}
+.fiveF{
+    display: flex;
+}
+.fourF{
+    display: flex;
+}
+.threeF{
+    display: flex;
+    margin-left: 988px;
+}
+.twoF{
+    display: flex;
+}
+.oneF{
+    display: flex;
+}
+
+#Building{
+    margin-left: 670px;
+}
+#BuildingValue{
+    margin-left: 80px;
+}
+#fax{
+    margin-left: 65px;
+}
+#health{
+    margin-left: 465px;
+}
+#healthValue{
+    margin-left: 65px;
+}
+#agree{
+    margin-left:75px;
+}
+#insta{
+    margin-left: 340px;
+}
+
+/* bottomBox 부분----------------------------------------------------------- */
+

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Montserrat Alternates";
+    font-weight: 600;
+    color:#1C7700;
+    font-size: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+p{
+    color:#000000;
+    font-weight: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+#shoesAction{
+    width: 517px;
+    height: 284px;
+    background-image: url('shoes.png');
+    background-size: cover;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#shoesAction:hover{
+    background-image: url('shoesClear.png');
+}
+
+
+#clothesAction{
+    width: 643px;
+    height: 284px;
+    background-image: url('clothes.png');
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#clothesAction:hover{
+    background-image: url('clothesClear.png');
+}
+
+
+#deviceAction{
+    width: 643px;
+    height: 284px;
+    background-image: url('device.png');
+    background-size: cover;
+    display: inline-block;
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+#deviceAction:hover{
+    background-image: url('deviceClear.png');
+}
+
+
+#foodAction{
+    width: 516px;
+    height: 284px;
+    background-image: url('food.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+#foodAction:hover{
+    background-image: url('foodClear.png');
+}
+

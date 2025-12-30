@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+} 
+/* 로고 부분 -------------------------------------------------------------*/
+#logoLogo{
+    display: flex;
+    font-family:"Montserrat Alternates";
+    font-weight: 600;
+    font-style: "Regular";
+    font-size: 30px;
+    line-height: 100%;
+    color: #35821E;
+    margin-left: 20px;
+    margin-top: 30px;
+    height:40px;
+    width: 250px;
+}
+
+.logo{
+    background-color: white;
+   
+    height:70px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: inline-flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 34px;
+}
+
+#BodyCheck{
+    margin-left: 280px;
+    color:#4A4A4A;
+    font-family:Montserrat Alternates;
+   
+}
+
+#CommunityID{
+    color: #4A4A4A;
+    font-family:Montserrat Alternates;
+}
+#FitLooID{
+    color:  #1C7700;
+    font-family:Montserrat Alternates;
+}
+
+#glass{
+    margin-left: 430px;
+}
+
+#signup{
+    color: #000000;
+    font-weight: 400;
+}
+
+.logo ul li a{
+    text-decoration: none;
+    font-family: Pretendard;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ul li{
+    
+    margin-top: 30px;
+}
+
+/* 로고 부분 --------------------------------------------------------------*/
+
+/* 중간 부분-------------------------------------------------------------------------------- */
+
+#backButton{
+    margin-top: 100px;
+    margin-left: 370px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+#motion1{
+    display: inline-block;
+    margin-left: 470px;
+}
+
+.explanation1{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#small{
+    color:#858585;
+    margin-bottom: 5px;
+}
+.explanation1 h2 {
+    font-weight: 600;
+    font-size: 54px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#price{
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
+#explanation{
+    margin-bottom: 8px;
+}
+
+#goSite{
+    margin-top: 50px;   
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border-color: #00000054;
+    border-radius: 5px;
+    margin-bottom: 300px;
+}
+
+.explanation2 h2{
+    font-size: 54px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.explanation2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#motion2{
+    margin-left: 260px;
+    margin-right: 0px;
+    margin-bottom: 200px;
+}
+#motion2-1{
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 200px;
+}
+
+.explanation3 h2{
+    font-size: 54px;
+    font-weight: 500;
+    margin-left: 260px;
+    margin-bottom:15px;
+}
+.explanation3 p{
+    margin-left: 260px;
+    margin-bottom: 10px;
+
+}
+#motion3{
+    display:inline-block;
+    margin-left:800px;
+    margin-bottom: 200px;
+}
+#motion4{
+    display:inline-block;
+    margin-bottom: 200px;
+}
+#motion5{
+    margin-left: 260px;
+}
+.explanation4 h2 {
+    font-size: 54px;
+    font-weight: 500;
+    margin-left: 800px;
+    margin-bottom:15px;
+}
+.explanation4 p{
+    margin-left: 800px;
+}
+.explanation5 h2{
+    font-size: 54px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom:15px;
+    margin-top: 200px
+}
+
+.explanation5 p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* .explanation3{
+    display: inline-block;
+    margin-left: 50px;
+    padding-bottom: 100px;
+}
+.explanation2 h3{
+    margin-left: 260px;
+}
+h3 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.middlePart p {
+    font-size: 24px;
+}
+
+#FinalP{
+    margin-top:350px;
+}
+
+.middlePart h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+    font-weight: 600;
+    font-size: 54px;
+    margin-top: 100px;
+}
+
+.middlePart p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+    margin-top: 0;
+    
+}
+#motion3{
+    display:inline-block;
+}
+
+#motion4{
+    display:inline-block;
+}
+
+#motion5{
+    margin-left: 260px;
+}
+*/
+#SportWear1{
+    display: inline-block;
+    background-image: url('SuportWear1.png');
+    background-size: cover; 
+    width: 170px;
+    height: 460px;
+    margin-right: 20px;
+    margin-left:265px;
+}
+
+#SportWear2{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#SportWear3{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#SportWear4{
+    display: inline-block;
+    background-image: url('SuportWear4.png');
+    background-size: cover; 
+    width: 170px;
+    height: 460px;
+}
+
+#bar{
+    display: block;
+    margin-left: 650px;
+    margin-top: 30px;
+}
+
+#pluse{
+    width: 360px;
+    height: 77px;
+    border-color: #999696;
+    border-radius: 10px;
+    color:#999696;
+    margin-left: 650px;
+    margin-bottom: 100px;
+    margin-top: 90px;
+} 
+/* 중간 부분-------------------------------------------------------------------------------- */
+
+/* bottomBox 부분----------------------------------------------------------- */
+.bottomBox{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 245px;
+    padding-right: 245px;
+    padding-bottom: 50px;
+}
+.bottomBox h2{
+    color: #35821E;
+    font-family:"Montserrat Alternates";
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+p{
+    margin: 0px;
+    font-family: "Pretendard Variable";
+    font-weight: 500px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.sixF{
+    display: flex;
+}
+.fiveF{
+    display: flex;
+}
+.fourF{
+    display: flex;
+}
+.threeF{
+    display: flex;
+    margin-left: 988px;
+}
+.twoF{
+    display: flex;
+}
+.oneF{
+    display: flex;
+}
+
+#Building{
+    margin-left: 670px;
+}
+#BuildingValue{
+    margin-left: 80px;
+}
+#fax{
+    margin-left: 65px;
+}
+#health{
+    margin-left: 465px;
+}
+#healthValue{
+    margin-left: 65px;
+}
+#agree{
+    margin-left:75px;
+}
+#insta{
+    margin-left: 340px;
+}
+/* bottomBox 부분----------------------------------------------------------- */
